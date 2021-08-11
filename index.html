@@ -39,23 +39,32 @@
         </div>
 
         <div class="flex-container ">
-            <div class="color:black" ;>Filtres </div>
-            <div class="image1"><img
+        <!-- REVIEW : Color dans le CSS -->
+            <div class="color:black">Filtres </div>
+            <!-- REVIEW : image base64 non recommander / pour les icone même procédé que les images-->
+            <div class="image1">
+                <img
                     src=data:image/png;base64,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
                     alt="icone billet de dollars " />
             </div>
             <div class="flex-item"><span>Economique</span> </div>
-            <div class="image1"><img
+            <div class="image1">
+            <!-- REVIEW : image base64 non recommander / pour les icone même procédé que les images-->
+                <img
                     src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAADu7u5jY2O5ubnk5OR/f3+urq5nZ2f09PT7+/s1NTVAQEDBwcFgYGB7e3uUlJTQ0NDX19dzc3NRUVHHx8dXV1cpKSno6OgkJCSxsbEQEBBISEhsbGwwMDA8PDyHh4cdHR2hoaGPj48XFxeYmJiZqNStAAADtklEQVR4nO3d63KiQBCGYUYhCih4Fs9R4/3fYjysBoaBAZmt7sHv/bfUpqqfShTEARwHIYQQQgghhOzK6/XDjdiE/Z5HPcp/yR2Iv7Yu9TjGG6d9twZj6pHMdhb5RtRDmayrAArRpR7LXDslUIgd9WCmuhQAhbhQj2amSSFQiAn1cEbalwj31MOZaFgCFGJIPZ6BtqXCLfV4zfNKgULYfwDnaoT2H75NNcIp9YCNizTCiHrApgUHjfAQUI/YsED+TCE3aL+QesLGtf516MQaYUw9YOPavz9MNMKEesDmzUqBM+rxDDQuFc6pxzNR2YcL+/cVt8o+XbTjM77TKwSeqEcz1XcB8It6MHOpifbv7FOp/lBb8yf6yFtIvpn9py/kxv2UL2rFfjCXPzxHYRguzm6HehSEPqfO0O3pc+d2viwDV3emNN10aNsJKX90rOG7tRpZZVz/1PTdjfac0PDl45eqRZb8GpPlm0Ah9lactUmObwOFWFpA9FcNgNcXo08N0KY7i6+L/ZfCqsVP9WK+VKpsZUnVeH9w1H0PUyXWi8HKz/5WjfOqxb5+/AoxXu7mGwEKwXePUXzqt149akhh7x6Pyi2oIYUZAgpBDSlKt8CrelyPTufGhFzPppavs6wT1zWZukUJ1eP6aR9CCG0Tfo2KvvrN933JLmewQ5jUOEz1pW+J7RB6TqeysON8QcgiCCGEkD4IIYSQPgghhJA+CCGEkD4IIYSQPgghhJA+CCGEkD4IIYSQPgghhJA+CCGEkD4IIeQvzK7zTmoJs2sTua7zHktT1xGeMv9me21XesiFU0uYvVaDGlLYKDXksJ4wc+Ui4xuZh68hb1fY1RKm/jPnm7j5z1sI3u8OXEvoJM87m3d533fAjcLNYPd4p1AIV1EUKS5nv9/cJLj+7M9hx/Zd5lXwuheLQth3lBeaPn8k8Hn//uQUwttVzIqHXdh5gxoIIbQhCCHkH4QQ8g9CCPkHIYT8gxBC/kEIIf8ghJB/EELIPwgh5B+EEPIPQgj5ByGE/IMQQv5BCCH/IISQfxBCyD8IIeQfhBDyD0II+QchhPyDEEL+QQgh/z5SqLke37YUwvi6OW6PMFjmKOvr5nVua2jXnRRS7XIWz1E9NjimHvTtco/PfTyOOvdwa/43+ygslCjefetE2hoRT9kkyXL6tzl726sN34fFVyjzIOvRa3P67fTI9SHcFZsMnpJV+tX2934aW/0bvDePrzuN5VS6BVuwjo5iM7vYuidECCGEEEIIfVq/0Og8Yrw3vywAAAAASUVORK5CYII
                     alt="photo de bonhomme" />
             </div>
             <div class="flex-item"><span>Familial</span></div>
-            <div class="image1"><img
+            <div class="image1">
+            <!-- REVIEW : image base64 non recommander / pour les icone même procédé que les images-->
+                <img
                     src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN1ZarRe8lOxw4AOGX1qhYXDr8MbbUV5KiFA&usqp=CAU
                     alt="icone de coeur" />
             </div>
             <div class="flex-item"><span>Romantique</span></div>
-            <div class="image1"><img
+            <div class="image1">
+            <!-- REVIEW : image base64 non recommander / pour les icone même procédé que les images-->
+                <img
                     src=data:image/png;base64,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
                     alt="icone d'un chien" />
             </div>
@@ -71,11 +80,11 @@
                 <div id="gauche">
                     <h4>Hébergements à Marseille</h4>
                     <p class="hebergements"><img src="images\hebergements\3_medium\marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                            alt="photo Auberge la cannebière"  /> 
+                            alt="photo Auberge la cannebière" />
                         <img src="images\hebergements\3_medium\fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                            alt="photo d'Hôtel du port" /> 
+                            alt="photo d'Hôtel du port" />
                         <img src="images\hebergements\3_medium\reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                            alt="photo Hôtel les mouettes" /> 
+                            alt="photo Hôtel les mouettes" />
                     </p>
                     <p class="deuxieme"><img src="images\hebergements\3_medium\annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                             alt="photo Hôtel de la mer" />
@@ -121,27 +130,30 @@
                 </p>
             </div>
 
-        </section></body>
-        <footer>
-            <div id="groupe">
-                <div id="gauche">
-                <h3 class="apropos">A propos</h3>
-                <ul class="listapropos">
-                    <li>Fonctionnement du site</li>
-                    <li>Conditions générales de vente </li>
-                    <li>Données et confidentialité</li>
-                </ul></div>
-                <div id="centre">
-                <h3 class="hebergement">Nos Hébergements </h3>
-                <ul class="noshebergements">
-                    <li>Charte qualité</li>
-                    <li>Soumettre votre hôtel</li>
-                </ul></div>
-                <div id="droite">
-                <h3 class="Assiss">Assisstante</h3>
-                <ul class="Assisstante">
-                    <li>Centre d'aide</li>
-                    <li>Nous contacter</li>
-                </ul>
-            </div>
+        </section>
+</body>
+<footer>
+    <div id="groupe">
+        <div id="gauche">
+            <h3 class="apropos">A propos</h3>
+            <ul class="listapropos">
+                <li>Fonctionnement du site</li>
+                <li>Conditions générales de vente </li>
+                <li>Données et confidentialité</li>
+            </ul>
+        </div>
+        <div id="centre">
+            <h3 class="hebergement">Nos Hébergements </h3>
+            <ul class="noshebergements">
+                <li>Charte qualité</li>
+                <li>Soumettre votre hôtel</li>
+            </ul>
+        </div>
+        <div id="droite">
+            <h3 class="Assiss">Assisstante</h3>
+            <ul class="Assisstante">
+                <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+            </ul>
+        </div>
 </footer>
