@@ -1,13 +1,25 @@
-.list  { 
-    text-align: right; 
-    text-decoration:none;}
-  .list3{ display: inline;  
+.logo{
+    position: relative;
+    text-align:left;
+    width: 10%;
 }
-a
-    { text-decoration:none;}
- h1{text-align:left;}
 
- #conteneur
+.list  {  display: flex;  
+    float: right; 
+    text-decoration:none;
+    list-style-type: none;
+    color: blue;
+}
+.act{
+    color: black;
+}
+  
+ .text{ 
+    
+    text-align:center;
+}
+
+ .conteneur
  { 
      display: flex;
      padding: 6px 6px;}
@@ -18,6 +30,7 @@ a
      height:18px;
  }
  button{
+     display: flex;
    background:blue;
    color:white; 
 
@@ -25,44 +38,24 @@ a
 *{border-radius: 7px;}
 
 .flex-container {
-    display: flex;
-    margin-top: 10px;
-    padding-left:10 px;}
-   
-.flex-item {
-   
-    background-color:rgb(246, 246, 252); 
-    border:1px solid black;
-    padding-left:4 px;
-    }
-    
-
-.image1{
-    display: flex;
-
-    width: 25px;
-    height:18px;
-    background: rgb(241, 241, 243);
-    border: .4px solid blue;
-    padding-left:0 px;
-    margin: 0px  3px 0px 4px
- 
-}
+    display:flex;
+   }
+   .filter{display: flex;}
 .tooltip{
     display: flex;
     padding: 6px 6px;
 }
-#global {
+.global {
     overflow:auto;
     border: 1px 2px solid rgb(183, 183, 218);
     background: rgb(183, 183, 218);
 }
  
- #gauche {
+ .gauche {
     float:left;
     width:30%;
  }
- #droite {float:right;
+ .droite {float:right;
  }
 .hebergements
 {       display: flex;
@@ -109,19 +102,19 @@ a
 .Assisstante{
     list-style-type: none;
 }
-#groupe {
+.groupe {
     display: flex;
     
  }
- #gauche {
+ .gauche {
     float:left;
     width: 30% ;
  }
- #centre{
+ .centre{
     
   margin :auto;
   text-align:left;
   }
- #droite {
+ .droite {
   overflow-inline: AUTO;}
  
