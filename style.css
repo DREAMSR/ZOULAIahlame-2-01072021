@@ -324,36 +324,37 @@ padding: 0  5px 10px;
 font-size: 85%;}
  
 
+.groupe {padding: 10px;
+    display: flex;
+float: left;
+ 
+}
+
+#gauche {
+
+    float: left;
+}
+
+#centre {
+float: right;
+    text-align: left;
+}
+
+#droite {
+    float:right;
+}
 
 
 .listapropos { list-style-type: none;
-   
+    float: right;
 }
 
 .noshebergements {
     list-style-type: none;
+    float: right;
 }
 
 .Assisstante {
     list-style-type: none;
-}
-
-.groupe {
-    display: flex;
-float: left;
-}
-
-.gauche {
-    float: left;
-    width: 50%;
-}
-
-.centre {
-
-    margin: auto;
-    text-align: left;
-}
-
-.droite {
-    overflow-inline: AUTO;
+    float: right;
 }
