@@ -302,9 +302,12 @@ footer {
 }
 
 footer nav {
-	width: 70%;
-	 height: 30%;
+	width: 900px;
+	 height: 100px;
 	display: flex;
+     justify-content: space-between;
+     padding: 40px ;
+
  }
 
 footer nav ul {
@@ -316,25 +319,10 @@ footer nav ul {
 	text-align: left;
 }
 footer nav ul li:nth-child(1) {
-	font-family: 'raleway bold';
+	font-family: 'ralewaythin';
 	font-size: 25px;
+    font-weight: bolder;
 }
 
 
  
-.groupe  { list-style-type: none;
-    display: inline-block;
-
-} 
-
-.apropos { list-style-type: none;
-}
-
-.hebergement{
-    list-style-type: none;
-    
-}
-
-.Assisstante {
-    list-style-type: none;
-     
