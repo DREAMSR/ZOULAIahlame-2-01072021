@@ -16,14 +16,14 @@
 <body>
     <header>
         <!----"titre_principal"-->
-        <div class="logo">
-            <img src="images/logo/Reservia@3x.png" alt="Logo de Reservia" />
+        <div>
+            <img class="logo" src="images/logo/Reservia@3x.png" alt="Logo de Reservia" />
         </div>
         <nav>
-            <ul>
-                <li><a href="#Hébergements">Hébergements </a></li>
-                <li><a href="#Activités">Activités </a> </li>
-                <li> <a href="#S'inscrire">S'inscrire</a>
+            <ul class="navigation ">
+                <li class="nav"><a href="#Hébergements">Hébergements </a></li>
+                <li class="nav"><a href="#Activités">Activités </a> </li>
+                <li class="nav"> <a class="Sinscrire" href="#S'inscrire">S'inscrire</a>
             </ul>
         </nav>
     </header>
@@ -33,13 +33,12 @@
         <div class="iconemap">
             <i class="fas fa-map-marker-alt "></i>
             <form>
-                <input type="search" id="fill-in-the-field" placeholder="Marseille,France" />
+                <input type="search" class="fill-in-the-field" placeholder="Marseille,France" />
             </form>
             <span class="search">Rechercher </span>
         </div>
-
         <div class="flex-filter-text">
-            <p>Filtres</p>
+            <p class="filter">Filtres</p>
             <div class="icones">
                 <i class="fas fa-money-bill-wave"></i>
                 <a title="Économique" href="#">Économique</a>
@@ -58,11 +57,10 @@
             <div class="tooltiptext">Plus de 500 logement sont diponibles dans cette ville</div>
         </div>
     </div>
-    <section>
+    <section> 
         <div class="container-hebergements">
-            <header>
-                <h3>Hébergements à Marseille</h3>
-            </header>
+           <h5 class="hebergement-title">Hébergements à Marseille</h5>
+
             <div class="containerleft">
                 <div class="leftcards"> <img class="img"
                         src="images\hebergements\3_medium\marcus-loke-WQJvWU_HZFo-unsplash.jpg"
@@ -146,42 +144,14 @@
                     <p><a title="Afficher plus" href="#">Afficher plus</a></p>
                 </div>
             </div>
-            <div id="container-les-plus-populaires">
+            <div class="containerright">
+                <h5>Les plus populaires <i class="fas fa-chart-line"></i></h5>
                 <div class="rightcards">
-                    <h3>Les plus populaires</h3>
-                    <i class="fas fa-chart-line"></i>
-                    <div id="containerCardsPopulaires"> <img class="img"
-                            src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                            alt="photo Hôtel Le Soleil du Matin" />
-                        <p>Hôtel Le soleil du matin</p>
-                        <p>Nuit à partir de <span>128€</span></p>
-                    </div>
-                    <div class="avistar">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div id="containerCardsPopulaires">
-                        <img class="img" src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg"
-                            alt="photo Au coeur de l'eau - Chambres d'hôtes" />
-                        <p>Au coeur de l'eau<br /> Chambres d'hôtes</p>
-                        <p>Nuit à partir de <span>71€</span></p>
-                    </div>
-                    <div class="avistar">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div id="containerCardsPopulaires">
-                        <img class="img" src="images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                            alt="photo Hôtel Tout Bleu et Blanc" />
-                        <p>Hôtel Tout bleu et Blanc</p>
-                        <p>Nuit à partir de <span>68€</span></p>
-                    </div>
+
+                    <img class="pic" src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                        alt="photo Hôtel Le Soleil du Matin" />
+                    <p>Hôtel Le soleil du matin</p>
+                    <p>Nuit à partir de <span>128€</span></p>
                     <div class="avistar">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -190,56 +160,88 @@
                         <i class="fas fa-star"></i>
                     </div>
                 </div>
+
+                <div class="rightcards">
+                    <img class="pic" src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg"
+                        alt="photo Au coeur de l'eau - Chambres d'hôtes" />
+                    <p>Au coeur de l'eau<br /> Chambres d'hôtes</p>
+                    <p>Nuit à partir de <span>71€</span></p>
+                    <div class="avistar">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star unchecked "></i>
+                    </div>
+                </div>
+                <div class="rightcards">
+                    <img class="pic" src="images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                        alt="photo Hôtel Tout Bleu et Blanc" />
+                    <p>Hôtel Tout bleu et Blanc</p>
+                    <p>Nuit à partir de <span>68€</span></p>
+                    <div class="avistar">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star unchecked "></i>
+                    </div>
+                </div>
             </div>
     </section>
     <section>
+        <div> <h5 class="title_act">Activités à Marseille</h5></div> 
         <div class="box">
-            <h4 class="title_act">Activités à Marseille</h4>
+         
             <div class="cardsactivites">
-                <img class="img" src="images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                    alt="photo de vieux port" />
-                <p>Vieux Port</p>
+                <figure>
+                    <img class="figure" src="images\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                        alt="photo de vieux port" />
+                    <figcaption>Vieux Port </figcaption>
+                </figure>
             </div>
             <div class="cards_activites">
-                <img class="img" src="images\activites\1_xlarge\paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                    alt="photo de Fort de Pomégues" />
-                <p>Fort de Pomégues</p>
-            </div>
-            <div class="cards_activites">
-                <img class="img" src="images\activites\3_medium\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                    alt="photo d'îles de frioul" />
-                <p>Îles du Frioul</p>
+                <figure>
+                    <img class="figure-marsaille" src="images\activites\1_xlarge\paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                        alt="photo de Fort de Pomégues" />
+                    <figcaption>Fort de Pomégues </figcaption>
+                </figure>
+                <figure>
+                    <img class="figure-marsaille" src="images\activites\3_medium\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                        alt="photo d'îles de frioul" />
+                    <figcaption>Îles du Frioul </figcaption>
+                </figure>
             </div>
             <div class="cardsactivites">
-                <img class="img" src="images\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+            <figure>
+                <img class="figure" src="images\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                     alt="photo parc national de Calanque" />
-                <p>Parc national de Calanque</p>
-            </div>
-            <div class="cards_activites">
-                <img class="img" src="images\activites\3_medium\florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                    alt="photo notre dame de la garde" />
-                <p>Notre dame de la garde</p>
-            </div>
-            <div class="cards_activites">
-
-                <img class="img" src="images\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                <figcaption>Parc national de Calanque </figcaption>
+            </figure>
+        </div>
+        <div class="cards_activites">
+            <figure>
+                <img class="figure-marsaille"
+                    src="images\activites\1_xlarge\florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                    alt="photo de Notre Dame de la Garde" />
+                <figcaption>Notre-Dame-de-la-Garde </figcaption>
+            </figure>
+            <figure>
+                <img class="figure-marsaille"
+                    src="images\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                     alt="photo parc longchamp" />
-                <p>Parc longchamp </p>
-            </div>
+                <figcaption>Parc longchamp </figcaption>
+            </figure>
         </div>
     </section>
 </body>
- 
-   
- 
-    
 <footer>
-    <nav>
+    <nav >
         <ul>
-            <li>À propos</li>
-            <li>Fonctionnement du site</li>
-            <li>Conditions générales de vente</li>
-            <li>Données et confidentialité</li>
+            <li >À propos</li>
+            <li >Fonctionnement du site</li>
+            <li >Conditions générales de vente</li>
+            <li >Données et confidentialité</li>
         </ul>
         <ul>
             <li>Nos hébergements</li>
@@ -254,3 +256,5 @@
     </nav>
 
 </footer>
+
+</html>
