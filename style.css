@@ -11,12 +11,8 @@
       width: 150px;
       height: 80px;
       padding-top: 3px;
-   padding-right: 360px; 
+   padding-right: 900px; 
  }
-.text {
-        margin-top: 30px;
-        text-align: left;
-    }
        
 body  {
    font-size:1em;
@@ -34,9 +30,10 @@ body  {
 
 .navigation {display: flex;
     list-style-type: none;
-padding-left: auto;}
+font-family: 'ralewaythin';
+font-size: large;}
 
-.nav{padding: 40px 35px 0 35px;
+.nav{padding: 20px 25px 0 15px;
     margin-right: 40px;
 }
 .nav:hover{ border-top: 3px solid #6464f1;
@@ -49,22 +46,25 @@ padding-left: auto;}
 
   /*end header*/
   /*--------------place of text and icones --------------*/
-h2
- {font-family:'ralewaythin';
- margin-bottom:1rem; 
+.text {
+    margin-top: 30px;
+    text-align: left;
+font-family:'raleway';
+ margin-bottom:1.7rem; 
+ font-size: 2em;
 }
 .description
   {
   font-weight:20em;
-  font-size:1rem;
-  font-family:'ralewaythin';
+  font-size:2em;
+  font-family:'raleway';
   margin-top: 0%;
  }
 .iconemap
 {
  display:flex;
  justify-content: flex-start;
- width:25%;
+ width:35%;
  height:3rem;
  margin-left:0;
  color:white;
@@ -81,7 +81,7 @@ h2
   color:rgb(5, 5, 5);
   background-color:rgb(202, 189, 189);
   border-radius:  15px 0  0 15px  ;
-  width:6rem;
+  width:8rem;
   height:3rem;
   Font-size:1rem;
   padding: 0 2% ;
@@ -90,27 +90,27 @@ h2
 .fill-in-the-field
 {
 display:flex;
-border:solid rgba(204, 203, 203, 0.842) 0.05rem;
+border:solid rgba(239, 237, 237, 0.842) 0.05rem;
 height:3rem;
-width:18rem;  
+width:20rem;  
 padding-left:4rem;
-  Font-size:1.3rem;
-font-weight:200;
- font-family:"ralewaythin" ;
-color:rgb(132, 125, 125)
+  Font-size:1.8rem;
+ font-family:'ralewayblack';
+
 }
+ 
 .search
 {
   display:flex;
   background-color:rgb(72, 72, 246);
   color:white;
   text-decoration: none;
-  width:20rem;
+  width:22rem;
   height:3rem;
   justify-content:center;
   align-items:center;
   font-family: 'ralewaythin';
-  font-size:1rem;
+  font-size:1.5rem;
   font-weight:200;  
   border-radius: 0 15px 15px 0 ;
   padding:0 1%;}
@@ -121,17 +121,17 @@ color:rgb(132, 125, 125)
 .flex-filter-text{
     display: flex;
     gap: 30px;
-    font-family: 'raleway-thin-webfont';
+    font-family: 'raleway';
     font-weight: bolder;
 }
+.filter{font-size: larger;}
 .icones{
     display:flex;
-    width:12rem;  
-    height:2rem;
+    width:14rem;  
+    height:3rem;
     font-weight: bold;
-    text-align:unset;
     Font-size:1rem;
-    Font-family:"ralewaythin" ;
+    Font-family:"raleway" ;
     color:rgb(5, 4, 4);
     border-radius: 30px;
     border: 3px  solid rgb(214, 209, 209);
@@ -147,7 +147,7 @@ color:rgb(132, 125, 125)
  }
    a:link{
        text-decoration: none;
-       padding-top: 2.5%;
+       padding-top: 5.5%;
    }
 .tooltip {
     color: blue;
@@ -162,9 +162,9 @@ color:rgb(132, 125, 125)
 /*------------- place of containers and cards-------------------*/
 
 
-.container-hebergements  {display: flex; 
-	font-size: 15px;
-	  gap: 20px; 
+.container-accommodation  {display: flex; 
+	font-size: 1em;
+	  gap: 25px; 
       justify-content: start;
       align-items: flex-start; 
       flex-wrap: wrap;
@@ -173,37 +173,49 @@ color:rgb(132, 125, 125)
       
      
 } 
-  .hebergement-title{font-size: larger;
+   .accommodation-title{font-size: 1.5rem;
+    display: inline-block;
+    text-align:start;
+    font-weight:bolder;
     font-family:'raleway' ;
-position: absolute;
-padding: 10px 0px 0px 40px;
-margin-top: 0%;
+position:absolute;
+padding: 5px 10px 10px 50px;
+margin-top: 0%; 
+margin-bottom: 10%;
+box-sizing: border-box;
  }
-
+ 
 .containerleft {   display: flex;
   gap: 2px;
-    width: 700px;
-    height: 600px;
+    width: 1000px;
+    height: 700px;
     background-color: rgb(228, 231, 241);
     flex-wrap: wrap;
     border: rgb(219, 219, 228) solid 2px;
     border-radius: 10px;
      flex-direction: row; 
-      margin-left: 0px;
+      margin-left: 0%;
+     
     }
- .leftcards{
-    padding: 1.3%;
+ .leftcards{ 
+    padding: .5%;
     margin:3%;
       border-radius: 20px;
      background-color: rgb(253, 251, 244);
      font-weight: lighter;
      justify-content: center;
      align-content: center;
-     width: 170px;
-     height: 200px;
+     width: 260px;
+     height: 245px;
+     
  }    
- 
-.title{padding-top: 500px;}
+ .img{width: 255px;
+    height: 150px;
+    border-radius: 14px 10px 0 0;
+
+}
+.title{padding-top: 600px;}     /*AFFICHER PLUS*/
+
 .containerright{
     display: inline-block;
     flex-direction: column;
@@ -213,9 +225,14 @@ margin-top: 0%;
     border:2px solid rgb(252, 248, 248);
     border-radius: 10px;
     padding:0px;
-    width: 300px;
-    height: 600px; 
+    width: 450px;
+    height: 700px; 
 }
+.popular-title{
+    font-family: 'raleway';
+    font-size: 1.5em;
+ }
+ .chartline{ margin-left:180px ;}
 .rightcards{border: #ded3d3;
     background-color: rgb(255, 255, 255);
 border-radius: 30px;
@@ -223,13 +240,10 @@ padding: 2%;
 margin:4%;
 height: 155px ;}
  
-.img{width: 170px;
-    height: 100px;
-    border-radius: 14px;
-}
+
 .pic{float: left;
     border-radius: 20px 0 0 20px;
-width: 140px;
+width: 200px;
 height: 155px;}
 .avistar i
 {font-weight: bold;
@@ -240,77 +254,78 @@ height: 155px;}
 .fa-star.unchecked {
 color: grey;
 }
-.title_act{      
-    margin-bottom: 0%;
-    font-family: 'raleway';
-font-size:  large;
-font-weight: bold;}
+ 
+
 /*------------- place of containers and cards-------------------*/
 
 /*------------- place of box and cards-------------------*/
 
-.box{display: flex;
+.box{display:  flex;
      box-sizing:content-box;
-     width:1030px;
-     height: 400px;
+     width: 1500px;
+     height: 500px;
      margin-left: 0px;
-     background-color: #f9f9ff;
+     background-color: #ffffff;
      float: left;
     
  
 }
-.cardsactivites{     flex-direction: row;
-
-    width: 250px;
+ 
+.title_act{  margin-bottom: 2px;    
+     font-family: 'raleway';
+font-size:  large;
+font-weight: bold;}
+.cardsactivites{    
+     flex-direction: row;
+padding: 2%;
+    width: 300px;
     height: 400px;
     margin-left: 0%;
+    
 }
-.cards_activites{ display: block; 
-    width: 250px;
-    height: 400px;
-    padding: 0px;
-    margin-left: 0px;
-}
- 
-.figure{width: 220px;
+.figure{width: 300px;
     height: 300px;
  border-radius: 10%  10% 0 0;
- margin-left: 0px;
- float: left;
+  float: left;
  }
-    .figure-marsaille{width: 220px;
+.cards_activites{ display: block; 
+    width: 320px;
+    height: 400px;
+    padding: 2%;
+ }
+    .figure-marsaille{width: 320px;
         height: 130px;
         border-radius: 10% 10% 0 0;
         padding: 1px;
-        margin-left: 0%;
-        margin: 0%;
-        float: left;
+          float: left;
     }
 figcaption{background-color: rgb(251, 251, 248);
+    width: 300px;
 font-family: 'ralewaythin';
-font-size: medium;
-font-weight: lighter;
-padding: 1px;}
+font-size: 1.19em;
+font-weight:lighter;
+border: 2px solid white;
+padding: 2% ;
+border-radius: 10% 10% 10px 10px; }
 /*------------- place of box and cards-------------------*/
 
  
     /* Section Footer */
-footer {
-	width: 1010px;
-	background-color: #ded3d3;
-    
-}
 
-footer nav {
-	width: 900px;
+
+   .navfooter {
+	width: 1100px;
 	 height: 100px;
 	display: flex;
      justify-content: space-between;
      padding: 40px ;
+     background-color: #f3f0f0;
+     font-family: 'ralewaythin';
+   
 
  }
 
-footer nav ul {
+.ulfooter{
 	 
 	display: flex;
 	flex-direction: column;
@@ -318,7 +333,7 @@ footer nav ul {
 	font-size: 18px;
 	text-align: left;
 }
-footer nav ul li:nth-child(1) {
+.firsttitle {
 	font-family: 'ralewaythin';
 	font-size: 25px;
     font-weight: bolder;
