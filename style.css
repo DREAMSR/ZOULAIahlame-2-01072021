@@ -1,7 +1,7 @@
 
     /*! generateur de fonte par fontsquirrel */
     @font-face {
-        font-family: 'ralewaythin';
+        font-family: "Raleway";
         src: url('raleway-thin-webfont.woff2') format('woff2'),
             url('raleway-thin-webfont.woff') format('woff');
         font-weight: normal;
@@ -16,7 +16,7 @@
        
 body  {
    font-size:1em;
-      font-family:"raleway","Trebuchet MS",Arial,sans-serif;
+      font-family: "Raleway";
       }
       /*header*/
  header
@@ -41,7 +41,7 @@ font-size: large;}
 .nav :hover{color: #6464f1  ;}   
  a{color: black;}  
  
-.Sinscrire{color:#0065fc;
+.sinscrire{color:#0065fc;
     font-weight:bolder;}
 
   /*end header*/
@@ -60,6 +60,7 @@ font-family:'raleway';
   font-family:'raleway';
   margin-top: 0%;
  }
+ /*search bar*/
 .iconemap
 {
  display:flex;
@@ -102,7 +103,7 @@ padding-left:4rem;
 .search
 {
   display:flex;
-  background-color:rgb(72, 72, 246);
+  background-color:rgb(87, 87, 234);
   color:white;
   text-decoration: none;
   width:22rem;
@@ -113,8 +114,16 @@ padding-left:4rem;
   font-size:1.5rem;
   font-weight:200;  
   border-radius: 0 15px 15px 0 ;
-  padding:0 1%;}
+  padding:0 1%;
+visibility: visible;}
+.magnifier i {  
+    border-radius: 0 15px 15px 0 ;
+    color:white;
+    background-color:rgb(87, 87, 234);
+    padding:0 1%;
+    visibility: hidden;
 
+  }
 /*------------------end text-icones--------------*/
 
 /*-------****------ place of filters--------****-----------*/
@@ -161,60 +170,52 @@ padding-left:4rem;
 
 /*------------- place of containers and cards-------------------*/
 
-
-.container-accommodation  {display: flex; 
-	font-size: 1em;
-	  gap: 25px; 
-      justify-content: start;
-      align-items: flex-start; 
-      flex-wrap: wrap;
-      box-sizing: content-box;
-      font-family: 'raleway-thin-webfont';
-      
-     
-} 
-   .accommodation-title{font-size: 1.5rem;
-    display: inline-block;
-    text-align:start;
-    font-weight:bolder;
-    font-family:'raleway' ;
-position:absolute;
-padding: 5px 10px 10px 50px;
-margin-top: 0%; 
-margin-bottom: 10%;
-box-sizing: border-box;
- }
  
-.containerleft {   display: flex;
-  gap: 2px;
+.container-accommodation-popular{
+    display: flex; 
+    font-size: 1em;
+    gap: 25px;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    font-family: "raleway-thin-webfont";
+  }
+  
+  .containerleft {
+    display: flex;
+    gap: 2px;
     width: 1000px;
     height: 700px;
     background-color: rgb(228, 231, 241);
     flex-wrap: wrap;
     border: rgb(219, 219, 228) solid 2px;
     border-radius: 10px;
-     flex-direction: row; 
-      margin-left: 0%;
-     
-    }
- .leftcards{ 
+    flex-direction: row;
+  }
+  .cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+  .leftcards {
+  margin-left: 20px;
+    border-radius: 20px;
+    background-color:rgb(255, 255, 255);
     padding: .5%;
-    margin:3%;
-      border-radius: 20px;
-     background-color: rgb(253, 251, 244);
-     font-weight: lighter;
-     justify-content: center;
-     align-content: center;
-     width: 260px;
-     height: 245px;
-     
- }    
- .img{width: 255px;
+    font-weight: lighter;
+    justify-content: center;
+    align-content: center;
+    width: 260px;
+    height: 245px;
+  }
+  .img {
+    width: 255px;
     height: 150px;
     border-radius: 14px 10px 0 0;
-
-}
-.title{padding-top: 600px;}     /*AFFICHER PLUS*/
+  }
 
 .containerright{
     display: inline-block;
@@ -228,10 +229,7 @@ box-sizing: border-box;
     width: 450px;
     height: 700px; 
 }
-.popular-title{
-    font-family: 'raleway';
-    font-size: 1.5em;
- }
+ 
  .chartline{ margin-left:180px ;}
 .rightcards{border: #ded3d3;
     background-color: rgb(255, 255, 255);
@@ -271,10 +269,7 @@ color: grey;
  
 }
  
-.title_act{  margin-bottom: 2px;    
-     font-family: 'raleway';
-font-size:  large;
-font-weight: bold;}
+ 
 .cardsactivites{    
      flex-direction: row;
 padding: 2%;
@@ -314,12 +309,11 @@ border-radius: 10% 10% 10px 10px; }
 
 
    .navfooter {
-	width: 1100px;
+	width: 100%;
 	 height: 100px;
 	display: flex;
      justify-content: space-between;
-     padding: 40px ;
-     background-color: #f3f0f0;
+      background-color: #f3f0f0;
      font-family: 'ralewaythin';
    
 
@@ -340,4 +334,123 @@ border-radius: 10% 10% 10px 10px; }
 }
 
 
- 
+@media screen and (max-width: 600px){
+        /*header*/
+   header
+        {
+        display:block;
+        margin: 5% 0;
+        }
+  .logo {
+            margin: 5% 4%;
+       }
+  .navigation { 
+    padding: 5% 0 3% 0;
+    margin: 0;
+    font-size: 20px; 
+}
+ .nav:nth-child(1)
+{ 
+    border-top: none;
+    width: 50%;
+    border-bottom: 3px solid #0065FC;
+
+  }
+   .nav:nth-child(2){
+    width: 50%;
+    border-bottom: 3px solid #F2F2F2;
+    text-decoration: none;
+
+}
+/* Le s'inscrire sort du flux et est positionné en haut à droite */
+ .nav:nth-child(3) {
+    position: absolute;
+    top: 8%;
+    right: .2rem;
+    text-decoration: none;
+     
+}
+a:link{text-decoration: none;}
+   
+
+/* Section recherche et Filtres */
+.filter-text  {
+    padding: 0;
+    margin: 0 6% 2rem 6%;
+    font-size: 18px;
+}
+.text{
+    font-family: 'raleway bold';
+    margin-bottom: 1rem;
+}
+/* Barre de recherche */
+ .iconemap{
+  
+    width: 10rem;
+    height:3rem;
+}
+.iconemap i
+{width: 8rem;
+     background-color: rgb(221, 233, 233);
+    height:3rem;
+    Font-size:2rem;
+    border: 1px solid ghostwhite;
+    border-radius:  15px 0  0 15px  ;
+    padding:0 5%;
+
+     
+
+}
+.fill-in-the-field   {
+    border-right: none;
+    display:flex;
+    border:solid rgba(239, 237, 237, 0.842) 0.05rem;
+    height:3rem;
+    width:12rem;  
+    padding-left:1rem;
+      Font-size:.89em;
+     font-family:'ralewayblack';}
+     
+  
+     .search
+     {
+       display:none;
+       background-color:rgb(87, 87, 234);
+       color:white;
+       text-decoration: none;
+       width:22rem;
+       height:3rem;
+       border-radius: 0 15px 15px 0 ;
+       padding:0 1%;
+     visibility: hidden;}
+.magnifier i {  
+    border-radius:10px 15px 15px 10px ;
+    color:white;
+    background-color:rgb(87, 87, 234);
+    padding:0 1%;
+    visibility: visible;
+    width:5rem;
+    height:3rem;
+
+  }
+    /* Les filtres */
+    .filter{width: 50px;text-align: start;padding-right: 200px;}
+    .flex-filter-text { width: 100px;
+        display: flex;
+		flex-wrap: wrap;
+        width: 35rem;
+        margin-left: 0%;
+ 		margin-bottom: 1rem;
+
+}
+.icones{width: 10rem;}}
+
+    /* Info */
+div#info {
+    font-size: 16px;
+}
+div#infoWrapper {
+    margin: 0 1.5rem 0 0;
+}
+
+}
