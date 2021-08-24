@@ -429,18 +429,21 @@ a:link{text-decoration: none;}
 
   }
     /* Les filtres */
-    .filter{width: 50px;text-align: start;padding-right: 200px;}
-    .flex-filter-text { width: 100px;
-        display: flex;
+   
+    .flex-filter-text { 
+        display:flex;
 		flex-wrap: wrap;
-        width: 35rem;
-        margin-left: 0%;
- 		margin-bottom: 1rem;
-
-}
-.icones{width: 15rem;}}
-
-    /* Info */
+        width: 22rem;
+        
+}  
+.filter{padding-right: 200px;}
+.icones:nth-child(2){
+width: 9rem;}
+.icones:nth-child(3){
+width: 9rem;}
+.icones:nth-child(4){
+  width: 12rem;}
+    /* Info 
 div#info {
     font-size: 16px;
 }
