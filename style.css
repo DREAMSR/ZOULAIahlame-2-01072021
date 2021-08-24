@@ -18,20 +18,19 @@ body  {
    font-size:1em;
       font-family: "Raleway";
       }
+ 
       /*header*/
  header
       {
       display:flex;
       list-style-type: none;
-      font-family:'ralewaythin';
-      }
+       }
 
 
 
 .navigation {display: flex;
     list-style-type: none;
-font-family: 'ralewaythin';
-font-size: large;}
+ font-size: large;}
 
 .nav{padding: 20px 25px 0 15px;
     margin-right: 40px;
@@ -49,16 +48,15 @@ font-size: large;}
 .text {
     margin-top: 30px;
     text-align: left;
-font-family:'raleway';
- margin-bottom:1.7rem; 
+  margin-bottom:1.7rem; 
  font-size: 2em;
+ font-family: 'ralewayblack';
 }
 .description
   {
   font-weight:20em;
   font-size:2em;
-  font-family:'raleway';
-  margin-top: 0%;
+  
  }
  /*search bar*/
 .iconemap
@@ -72,6 +70,8 @@ font-family:'raleway';
  margin-top:4rem;
  margin-bottom:4rem;
  border-radius:25px;
+ font-family: 'ralewaythin';
+
 
 } 
 .iconemap i
@@ -96,7 +96,7 @@ height:3rem;
 width:20rem;  
 padding-left:4rem;
   Font-size:1.8rem;
- font-family:'ralewayblack';
+  font-family: 'ralewayblack';
 
 }
  
@@ -110,8 +110,7 @@ padding-left:4rem;
   height:3rem;
   justify-content:center;
   align-items:center;
-  font-family: 'ralewaythin';
-  font-size:1.5rem;
+   font-size:1.5rem;
   font-weight:200;  
   border-radius: 0 15px 15px 0 ;
   padding:0 1%;
@@ -130,8 +129,9 @@ visibility: visible;}
 .flex-filter-text{
     display: flex;
     gap: 30px;
-    font-family: 'raleway';
-    font-weight: bolder;
+     font-weight: bolder;
+     font-family: 'ralewayblack';
+
 }
 .filter{font-size: larger;}
 .icones{
@@ -140,8 +140,7 @@ visibility: visible;}
     height:3rem;
     font-weight: bold;
     Font-size:1rem;
-    Font-family:"raleway" ;
-    color:rgb(5, 4, 4);
+     color:rgb(5, 4, 4);
     border-radius: 30px;
     border: 3px  solid rgb(214, 209, 209);
    
@@ -173,14 +172,13 @@ visibility: visible;}
  
 .container-accommodation-popular{
     display: flex; 
-    font-size: 1em;
+    font-family: 'ralewayblack';
     gap: 25px;
     justify-content: start;
     align-items: flex-start;
     flex-wrap: wrap;
     box-sizing: content-box;
-    font-family: "raleway-thin-webfont";
-  }
+   }
   
   .containerleft {
     display: flex;
@@ -205,7 +203,6 @@ visibility: visible;}
     border-radius: 20px;
     background-color:rgb(255, 255, 255);
     padding: .5%;
-    font-weight: lighter;
     justify-content: center;
     align-content: center;
     width: 260px;
@@ -225,8 +222,7 @@ visibility: visible;}
     background-color: rgb(228, 231, 241);
     border:2px solid rgb(252, 248, 248);
     border-radius: 10px;
-    padding:0px;
-    width: 450px;
+     width: 450px;
     height: 700px; 
 }
  
@@ -244,7 +240,7 @@ height: 155px ;}
 width: 200px;
 height: 155px;}
 .avistar i
-{font-weight: bold;
+{ 
   color:#737de5;
   font-size: small;
 }
@@ -256,83 +252,82 @@ color: grey;
 
 /*------------- place of containers and cards-------------------*/
 
-/*------------- place of box and cards-------------------*/
+/*------------- place of box and cards------------------- */
 
 .box{display:  flex;
      box-sizing:content-box;
-     width: 1500px;
-     height: 500px;
-     margin-left: 0px;
-     background-color: #ffffff;
-     float: left;
-    
- 
-}
- 
- 
-.cardsactivites{    
      flex-direction: row;
-padding: 2%;
-    width: 300px;
-    height: 400px;
-    margin-left: 0%;
-    
+     flex-wrap: wrap; 
+     font-family: 'ralewayblack';
+
+ 
 }
+.card-Container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+ 
+figure{ 
+margin-left: 10px;
+gap: 10%;}
+
 .figure{width: 300px;
     height: 300px;
  border-radius: 10%  10% 0 0;
-  float: left;
- }
-.cards_activites{ display: block; 
-    width: 320px;
-    height: 400px;
-    padding: 2%;
- }
-    .figure-marsaille{width: 320px;
-        height: 130px;
-        border-radius: 10% 10% 0 0;
-        padding: 1px;
-          float: left;
+  
+  }
+.figure-marsaille{width: 300px;
+       height: 130px;
+       border-radius: 10% 10% 0 0;
+       
     }
-figcaption{background-color: rgb(251, 251, 248);
-    width: 300px;
-font-family: 'ralewaythin';
-font-size: 1.19em;
-font-weight:lighter;
-border: 2px solid white;
-padding: 2% ;
-border-radius: 10% 10% 10px 10px; }
+figcaption{background-color: rgb(251, 250, 248);
+  width: 300px;
+    height: 100%;
+    border: 2px solid rgb(226, 224, 224);
+border-radius: 0 0 10px 10px; 
+border-top:none;
+border-bottom: #ded3d3;
+font-weight: bolder;
+font-size: large;
+
+}
+
 /*------------- place of box and cards-------------------*/
 
  
-    /* Section Footer */
+    /* PLACE OF FOOTER */
 
 
    .navfooter {
 	width: 100%;
-	 height: 100px;
+	 height: 150px;
 	display: flex;
-     justify-content: space-between;
       background-color: #f3f0f0;
      font-family: 'ralewaythin';
-   
-
+     gap: 175px;
  }
 
 .ulfooter{
-	 
+
 	display: flex;
 	flex-direction: column;
 	list-style-type: none;
 	font-size: 18px;
 	text-align: left;
+  padding: 2px;
+  
 }
 .firsttitle {
 	font-family: 'ralewaythin';
 	font-size: 25px;
     font-weight: bolder;
+    padding-bottom: 20px;
 }
-
+/*END OF FOOTER*/
 
 @media screen and (max-width: 600px){
         /*header*/
@@ -443,7 +438,7 @@ a:link{text-decoration: none;}
  		margin-bottom: 1rem;
 
 }
-.icones{width: 10rem;}}
+.icones{width: 15rem;}}
 
     /* Info */
 div#info {
