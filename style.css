@@ -296,7 +296,7 @@ font-size: large;
 
 }
 
-/*------------- place of box and cards-------------------*/
+/*-------------end place of box and cards-------------------*/
 
  
     /* PLACE OF FOOTER */
@@ -317,8 +317,9 @@ font-size: large;
 	flex-direction: column;
 	list-style-type: none;
 	font-size: 18px;
-	text-align: left;
-  padding: 2px;
+   padding: 2px;
+   margin-left: 25px;
+  
   
 }
 .firsttitle {
@@ -330,7 +331,7 @@ font-size: large;
 /*END OF FOOTER*/
 
 @media screen and (max-width: 600px){
-        /*header*/
+        
    header
         {
         display:block;
@@ -357,7 +358,7 @@ font-size: large;
     text-decoration: none;
 
 }
-/* Le s'inscrire sort du flux et est positionné en haut à droite */
+ 
  .nav:nth-child(3) {
     position: absolute;
     top: 8%;
@@ -378,7 +379,7 @@ a:link{text-decoration: none;}
     font-family: 'raleway bold';
     margin-bottom: 1rem;
 }
-/* Barre de recherche */
+/* SEARCH BAR */
  .iconemap{
   
     width: 10rem;
@@ -428,7 +429,7 @@ a:link{text-decoration: none;}
     height:3rem;
 
   }
-    /* Les filtres */
+    /* FILTERS */
    
     .flex-filter-text { 
         display:flex;
@@ -443,12 +444,141 @@ width: 9rem;}
 width: 9rem;}
 .icones:nth-child(4){
   width: 12rem;}
-    /* Info 
-div#info {
-    font-size: 16px;
-}
-div#infoWrapper {
-    margin: 0 1.5rem 0 0;
+    /* Info */
+    .tooltiptext {font-size: 1rem;
+  }
+  /* CONTAINER ACCOMMODATION AND POPULAR*/
+  .container-accommodation-popular{flex-direction: column-reverse;flex-wrap: wrap; }
+  
+.containerright{
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  background-color: rgb(228, 231, 241);
+  border:2px solid rgb(252, 248, 248);
+  border-radius: 10px;
+   width: 350px;
+  height: 700px; 
 }
 
+.chartline{ margin-left:100px ;}
+.rightcards{border: #ded3d3;
+  background-color: rgb(255, 255, 255);
+border-radius: 30px;
+padding: 2%;
+margin:4%;
+height: 155px ;}
+
+
+.pic{float: left;
+  border-radius: 20px 0 0 20px;
+width: 150px;
+height: 155px;}
+ 
+
+.containerleft{  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  background-color: rgb(228, 231, 241);
+  border:2px solid rgb(252, 248, 248);
+  border-radius: 10px;
+   width: 350px;
+  height: 1200px;}
+  .cardContainer{ flex-direction:column;
+    display: block; 
+    height: 1050px;
+    }
+.leftcards {
+    background-color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+    width: 310px;
+    height: 165px;
+  }
+.img {
+  width: 300px;
+  height: 70px;
+
+}
+/*END OF CONTAINER ACCOMMODATION AND POPULAR*/
+
+/******************PLACE OF ACTIVITIES*********/
+.box{display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  background-color: rgb(255, 255, 255);
+  border:2px solid rgb(252, 248, 248);
+  border-radius: 10px;
+   width: 350px;
+
+
+}
+.card-Container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+
+}
+
+figure{ 
+margin-left: 10px;
+gap: 10%;}
+
+.figure{width: 300px;
+ height: 130px;
+border-radius: 10%  10% 0 0;
+
+}
+.figure-marsaille{width: 300px;
+    height: 130px;
+    border-radius: 10% 10% 0 0;
+    
+ }
+figcaption{background-color: rgb(251, 250, 248);
+width: 300px;
+ height: 100%;
+ border: 2px solid rgb(226, 224, 224);
+border-radius: 0 0 10px 10px; 
+border-top:none;
+border-bottom: #ded3d3;
+font-weight: bolder;
+font-size: large;
+
+}
+/******************END OF ACTIVITIES*********/
+
+
+  /* PLACE OF FOOTER */
+
+
+  .navfooter {
+    width: 350px;
+     height: 550px;
+    display: block;
+        background-color: #f3f0f0;
+       font-family: 'ralewaythin';
+       gap: 175px;
+   }
+   
+  
+  .ulfooter{
+  
+    display: block;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 18px;
+    text-align: left;
+    padding: 30px;
+    
+  }
+  .firsttitle {
+    font-family: 'ralewaythin';
+    font-size: 25px;
+      font-weight: bolder;
+      padding-bottom: 20px;
+  }
+  /*END OF FOOTER*/
 }
