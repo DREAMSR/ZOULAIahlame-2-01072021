@@ -196,23 +196,24 @@ visibility: visible;}
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 30px;
+    margin-left: 20px;
   }
   .leftcards {
-  margin-left: 20px;
-    border-radius: 20px;
+
     background-color:rgb(255, 255, 255);
-    padding: .5%;
+    width:  300px;
+    height: 255px;
+    border-radius: 5%  5% 5% 5%;
     justify-content: center;
-    align-content: center;
-    width: 260px;
-    height: 245px;
+    justify-items: center;
   }
-  .img {
-    width: 255px;
+  .img {margin: 3px;
+    padding: 5px;
+    width: 280px;
     height: 150px;
-    border-radius: 14px 10px 0 0;
-  }
+    border-radius: 10%  10% 0 0;}
+    
 
 .containerright{
     display: inline-block;
