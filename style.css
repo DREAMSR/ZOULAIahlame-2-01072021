@@ -486,20 +486,22 @@ height: 155px;}
   border:2px solid rgb(252, 248, 248);
   border-radius: 10px;
    width: 350px;
-  height: 1200px;}
+  height: 1500px;}
   .cardContainer{ flex-direction:column;
     display: block; 
-    height: 1050px;
+    height: 1350px;
     }
 .leftcards {
     background-color:rgb(255, 255, 255);
     margin-bottom: 10px;
-    width: 310px;
-    height: 165px;
+    width: 300px;
+    height: 215px;
+    margin: 5px;
+    padding: 2px;
   }
 .img {
-  width: 300px;
-  height: 70px;
+  width: 280px;
+  height: 100px;
 
 }
 /*END OF CONTAINER ACCOMMODATION AND POPULAR*/
