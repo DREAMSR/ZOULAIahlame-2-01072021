@@ -331,7 +331,7 @@ font-size: small;
 
 @media screen and (max-width: 600px){
         
-   header
+   .header
         {
         display:block;
         margin: 5% 0;
@@ -505,20 +505,10 @@ height: 155px;}
 /*END OF CONTAINER ACCOMMODATION AND POPULAR*/
 
 /******************PLACE OF ACTIVITIES*********/
-.box{display: inline-block;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 5px;
-  background-color: rgb(255, 255, 255);
-  border:2px solid rgb(252, 248, 248);
-  border-radius: 10px;
-   width: 350px;
-
-
-}
+ 
 .card-Container{
-display: flex;
-flex-direction: row;
+  display: inline-block;
+  flex-direction: row;
 flex-wrap: wrap;
 justify-content: flex-start;
 
