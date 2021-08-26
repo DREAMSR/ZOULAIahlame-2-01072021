@@ -66,7 +66,7 @@ body  {
 {
  display:flex;
  justify-content: flex-start;
- width:35%;
+ width:8rem;
  height:3rem;
  margin-left:0;
  color:white;
@@ -96,9 +96,8 @@ body  {
 display:flex;
 border:solid rgba(239, 237, 237, 0.842) 0.05rem;
 height:3rem;
-width:20rem;  
-padding-left:4rem;
-  Font-size:1.8rem;
+width:10rem;  
+  Font-size:1rem;
   font-family: 'ralewayblack';
 
 }
@@ -109,11 +108,11 @@ padding-left:4rem;
   background-color:rgb(87, 87, 234);
   color:white;
   text-decoration: none;
-  width:22rem;
+  width:10rem;
   height:3rem;
   justify-content:center;
   align-items:center;
-   font-size:1.5rem;
+   font-size:1rem;
   font-weight:200;  
   border-radius: 0 15px 15px 0 ;
   padding:0 1%;
