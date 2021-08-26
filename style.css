@@ -329,7 +329,7 @@ font-family: 'Ralewayblack';
 }
 /*END OF FOOTER*/
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 375px){
         
    .header
         {
