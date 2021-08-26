@@ -49,13 +49,13 @@ body  {
     margin-top: 30px;
     text-align: left;
   margin-bottom:1.7rem; 
- font-size: 2em;
+ font-size: 1em;
  font-family: 'ralewayblack';
 }
 .description
   {
   font-weight:20em;
-  font-size:2em;
+  font-size:1em;
   
  }
  /*search bar*/
@@ -136,7 +136,7 @@ visibility: visible;}
 .filter{font-size: larger;}
 .icones{
     display:flex;
-    width:14rem;  
+    width:12rem;  
     height:3rem;
     font-weight: bold;
     Font-size:1rem;
@@ -183,7 +183,7 @@ visibility: visible;}
   .containerleft {
     display: flex;
     gap: 2px;
-    width: 1000px;
+    width: 600px;
     height: 700px;
     background-color: rgb(228, 231, 241);
     flex-wrap: wrap;
