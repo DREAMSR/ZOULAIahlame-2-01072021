@@ -175,7 +175,7 @@ visibility: visible;}
  
 .container-accommodation-popular{display: flex;
   font-family: 'ralewayblack';
-  gap: 10px;
+  gap: 15px;
   justify-content: start;
   flex-wrap: wrap;
   box-sizing: content-box;
