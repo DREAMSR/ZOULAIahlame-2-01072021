@@ -254,17 +254,12 @@ color: grey;
 
 /*------------- place of containers and cards-------------------*/
 
-/*------------- place of box and cards------------------- */
+/*------------- place of card-Container ------------------- */
 
-.box{display:  flex;
-     box-sizing:content-box;
-     flex-direction: row;
-     flex-wrap: wrap; 
-     font-family: 'ralewayblack';
-     width: 1000px;
+
 
  
-}
+
 .card-Container{
   display: flex;
   flex-direction: row;
@@ -300,7 +295,7 @@ font-size: small;
 
 }
 
-/*-------------end place of box and cards-------------------*/
+/*-------------end place of card-Container-------------------*/
 
  
     /* PLACE OF FOOTER */
