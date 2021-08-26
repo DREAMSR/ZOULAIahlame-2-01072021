@@ -18,6 +18,9 @@ body  {
    font-size:1em;
       font-family: "Raleway";
       }
+      h2{font-family: 'Ralewayblack';
+      font-size: 15px;
+    font-weight: bold;}
  
       /*header*/
  header
@@ -172,7 +175,6 @@ visibility: visible;}
  
 .container-accommodation-popular{
     display: flex; 
-    font-family: 'ralewayblack';
     gap: 15px;
     justify-content: start;
     align-items: flex-start;
