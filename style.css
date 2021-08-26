@@ -238,7 +238,7 @@ height: 115px ;}
 .pic{float: left;
     border-radius: 20px 0 0 20px;
 width: 150px;
-height: 125px;}
+height: 115px;}
 .avistar i
 { 
   color:#737de5;
@@ -259,6 +259,7 @@ color: grey;
      flex-direction: row;
      flex-wrap: wrap; 
      font-family: 'ralewayblack';
+     width: 1100px;
 
  
 }
@@ -267,25 +268,25 @@ color: grey;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-
+width: 1100px;
 }
  
 figure{ 
-margin-left: 10px;
-gap: 10%;}
+margin-left: 1px;
+gap: 10PX;}
 
-.figure{width: 300px;
+.figure{width: 230px;
     height: 300px;
  border-radius: 10%  10% 0 0;
   
   }
-.figure-marsaille{width: 300px;
+.figure-marsaille{width: 230px;
        height: 130px;
        border-radius: 10% 10% 0 0;
        
     }
-figcaption{background-color: rgb(251, 250, 248);
-  width: 300px;
+figcaption{background-color: rgb(243, 242, 241);
+  width: 230px;
     height: 100%;
     border: 2px solid rgb(226, 224, 224);
 border-radius: 0 0 10px 10px; 
