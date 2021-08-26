@@ -183,7 +183,7 @@ visibility: visible;}
   .containerleft {
     display: flex;
     gap: 2px;
-    width: 600px;
+    width: 700px;
     height: 530px;
     background-color: rgb(228, 231, 241);
     flex-wrap: wrap;
@@ -202,14 +202,14 @@ visibility: visible;}
   .leftcards {
 
     background-color:rgb(255, 255, 255);
-    width:  150px;
+    width:  200px;
     height: 200px;
     border-radius: 5%  5% 5% 5%;
     font-size: small;
    }
   .img {margin: 3px;
     padding: 5px;
-    width: 130px;
+    width: 200px;
     height: 100px;
     border-radius: 10%  10% 0 0;}
     
@@ -222,7 +222,7 @@ visibility: visible;}
     background-color: rgb(228, 231, 241);
     border:2px solid rgb(252, 248, 248);
     border-radius: 10px;
-     width: 250px;
+     width: 350px;
     height: 530px; 
 }
  
@@ -238,7 +238,7 @@ height: 115px ;}
 
 .pic{float: left;
     border-radius: 20px 0 0 20px;
-width: 80px;
+width: 130px;
 height: 115px;}
 .avistar i
 { 
