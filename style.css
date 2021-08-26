@@ -173,13 +173,12 @@ visibility: visible;}
 /*------------- place of containers and cards-------------------*/
 
  
-.container-accommodation-popular{
-    display: flex; 
-    gap: 15px;
-    justify-content: start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    box-sizing: content-box;
+.container-accommodation-popular{display: flex;
+  font-family: 'ralewayblack';
+  gap: 10px;
+  justify-content: start;
+  flex-wrap: wrap;
+  box-sizing: content-box;
    }
   
   .containerleft {
