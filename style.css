@@ -470,6 +470,7 @@ height: 2rem;}
     height: 2rem;}
     /* Info */
     .tooltiptext {font-size: .6rem;
+      word-wrap: break-word;
   }
   /* CONTAINER ACCOMMODATION AND POPULAR*/
   .container-accommodation-popular{flex-direction: column-reverse;flex-wrap: wrap; }
@@ -565,7 +566,7 @@ border-radius: 0 0 10px 10px;
 border-top:none;
 border-bottom: #ded3d3;
 font-weight: bolder;
-font-size: small;
+font-size: .6rem;
 
 }
 /******************END OF ACTIVITIES*********/
