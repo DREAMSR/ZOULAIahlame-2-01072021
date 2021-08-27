@@ -502,6 +502,7 @@ height: 145px ;}
 
 
 .pic{float: left;
+  object-fit:  cover; 
   border-radius: 20px 0 0 20px;
 width: 60px;
 height: 145px;}
@@ -534,7 +535,7 @@ font-size: .5;
 }
 .img{width: 200;
   height: 80px;
-
+  object-fit:  cover; 
 }
 /*END OF CONTAINER ACCOMMODATION AND POPULAR*/
 
@@ -555,11 +556,13 @@ gap: 10%;}
 .figure{width: 200px;
  height: 130px;
 border-radius: 10%  10% 0 0;
+object-fit:  cover; 
 
 }
 .figure-marsaille{width: 200px;
     height: 130px;
     border-radius: 10% 10% 0 0;
+    object-fit:  cover; 
     
  }
 figcaption{background-color: rgb(251, 250, 248);
