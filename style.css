@@ -434,17 +434,18 @@ a:link{text-decoration: none;}
     .flex-filter-text { 
         display:flex;
 		flex-wrap: wrap;
-    width: 18rem;
-    font-size: small;
+    width: 16rem;
+    font-size: .5rem;
         
 }  
-.filter{padding-right: 200px;}
-.icones:nth-child(2){
-width: 7.5rem;}
-.icones:nth-child(3){
-width: 6.5rem;}
-.icones:nth-child(4){
+.filter{padding-right: 100px;}
+.icones:nth-child(2){  font-size: .8rem;
+width: 7rem;}
+.icones:nth-child(3){   font-size: .8rem;
+width: 6rem;}
+.icones:nth-child(4){  font-size: .8rem;
   width: 12rem;}
+  .icones:nth-child(5){ font-size: .8rem;}
     /* Info */
     .tooltiptext {font-size: 1rem;
   }
