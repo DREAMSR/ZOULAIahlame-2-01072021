@@ -211,7 +211,8 @@ visibility: visible;}
     padding: 5px;
     width:150px;
     height: 100px;
-    border-radius: 10%  10% 0 0;}
+    border-radius: 10%  10% 0 0;
+    object-fit:  cover; }
     
 
 .containerright{
@@ -237,6 +238,7 @@ height: 115px ;}
  
 
 .pic{float: left;
+  object-fit:  cover; 
     border-radius: 20px 0 0 20px;
 width: 100px;
 height: 115px;}
@@ -275,11 +277,13 @@ figure{
 .figure{width: 200px;
     height: 300px;
  border-radius: 10%  10% 0 0;
+ object-fit:  cover; 
   
   }
 .figure-marsaille{width: 200px;
        height: 130px;
        border-radius: 10% 10% 0 0;
+       object-fit:  cover; 
        
     }
 figcaption{background-color: rgb(243, 242, 241);
