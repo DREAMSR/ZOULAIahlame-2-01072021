@@ -339,29 +339,34 @@ padding-bottom: 3%;
     padding-bottom: 20px;
 }
 /*END OF FOOTER*/
-
-@media screen and (max-width: 375px){
-        
+@media screen and (max-width: 380px){
+     body{ font-family: "Raleway";
+    font-size: 1em;}
    .header
         {
         display:block;
-        margin: 5px 0;
+        margin:5px 5% 10% 1%;
+
         }
-  .logo {width: 50px;
-    height: auto;
+  .logo {
+    height: 50px;
+    width: 80px;
     position: relative;
     top: 25px;
-            margin: 5px ;
+    left: 8px;
+    padding-right: 40px;
+
        }
-  .navigation { 
-    padding: 3px 0 1px 0;
-    margin: 5px;
-    font-size: 10px; 
+  .navigation {
+    padding: 5px 0 10px 0;
+    margin: 10px;
+    font-size: 1rem; 
+    gap: 40PX;
 }
  .nav:nth-child(1)
-{ 
+{   
     border-top: none;
-    width: 50px;
+    width: 100px;
     border-bottom: 3px solid #0065FC;
 
   }
@@ -375,7 +380,7 @@ padding-bottom: 3%;
  .nav:nth-child(3) {
     position: absolute;
     top: 25px;
-    left: 8.2rem;
+    left: 15.2rem;
     text-decoration: none;
      
 }
