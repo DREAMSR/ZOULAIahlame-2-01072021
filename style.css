@@ -342,7 +342,7 @@ padding-bottom: 3%;
 
 @media screen and (max-width: 380px){
      body{ font-family: "Raleway";
-    font-size: 1em;}
+     }
    .header
         {
         display:block;
