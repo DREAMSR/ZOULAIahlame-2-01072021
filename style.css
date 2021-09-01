@@ -39,6 +39,13 @@ body  {
 .nav{padding: 5px 25px 0 15px;
     margin-right: 40px;
 }
+.nav:nth-child(1)
+{   
+    border-top: none;
+    width: 7rem;
+    border-top: 3px solid #0065FC;
+
+  }
 .nav:hover{ border-top: 3px solid #0065FC;
         padding-top: 37px;}
 .nav :hover{color: #0065FC  ;}   
@@ -58,7 +65,7 @@ body  {
 }
 .description
   {
-  font-weight:20em;
+  font-weight:300;
   font-size:1.5em;
   
  }
@@ -160,14 +167,17 @@ visibility: visible;}
        text-decoration: none;
        padding-top: 5.5%;
    }
-.tooltip {
+
+.tooltip { 
+  display: flex;
   font-size: 1em;
-    color: #0065FC;
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  color: #0065FC;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   justify-items: flex-start;
 }
-.tooltiptext{color :black;
+.tooltiptext{display: flex;
+  color :black;
 padding-top: 10px;
 padding-bottom: 10px;}
 
@@ -561,8 +571,7 @@ font-size: .9em;
   display: inline-block;
   flex-direction: row;
 flex-wrap: wrap;
-justify-content: flex-start;
-
+justify-content:flex-start   ;
 }
 
 
