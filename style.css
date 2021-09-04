@@ -34,9 +34,11 @@ body  {
 
 .navigation {display: flex;
     list-style-type: none;
+    margin-top: .1px;
+
  font-size: large;}
 
-.nav{padding: 5px 25px 0 15px;
+.nav{padding: 25px 25px 0 15px;
     margin-right: 40px;
 }
 .nav:nth-child(1)
@@ -46,6 +48,18 @@ body  {
     border-top: 3px solid #0065FC;
 
   }
+  .nav:nth-child(2)
+{   
+    border-top: none;
+     border-top: 3px solid transparent;
+
+  }
+  .nav:nth-child(3)
+  {   
+      border-top: none;
+       border-top: 3px solid transparent;
+  
+    }
 .nav:hover{ border-top: 3px solid #0065FC;
         padding-top: 37px;}
 .nav :hover{color: #0065FC  ;}   
