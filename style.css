@@ -41,14 +41,14 @@ font-weight: bold;
     margin-right: 40px;
 }
 .nav:nth-child(1)
-{   
+{    
     border-top: none;
     width: 7rem;
     border-top: 3px solid #0065FC;
 
   }
   .nav:nth-child(2)
-{   
+{    
     border-top: none;
      border-top: 3px solid transparent;
 
@@ -64,8 +64,8 @@ font-weight: bold;
 .nav :hover{color: #0065FC  ;}   
  a{color: black;}  
  
-.sinscrire{color:#0065fc;
-    font-weight:bolder;}
+.sinscrire{color: #0065FC;
+    font-weight:bold;}
 
   /*end header*/
   /*--------------place of text and icones --------------*/
