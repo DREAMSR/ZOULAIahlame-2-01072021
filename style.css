@@ -13,7 +13,7 @@ body  {
    font-size:1em;
       font-family: "Raleway";
       }
-      h2{font-family: 'Ralewayblack';
+      h2{
       font-size: 15px;
     font-weight: bold;}
  
@@ -34,7 +34,7 @@ body  {
 .navigation {display: flex;
     list-style-type: none;
     margin-top: .1px;
-
+font-weight: bold;
  font-size: large;}
 
 .nav{padding: 25px 25px 0 15px;
@@ -73,9 +73,7 @@ body  {
     margin-top: 30px;
     text-align: left;
   margin-bottom:1.7rem; 
- font-size: 2em;
- font-family: 'ralewayblack';
-}
+  }
 .description
   {
   font-weight:300;
@@ -93,8 +91,7 @@ body  {
  margin-top:4rem;
  margin-bottom:4rem;
  border-radius:25px;
- font-family: 'ralewaythin';
-
+ 
 
 } 
 .iconemap i
@@ -118,8 +115,7 @@ border:solid  #DEEBFF 0.05rem;
 height:4rem;
 width:22rem;  
   Font-size:1.5rem;
-  font-family: 'ralewayblack';
-  color: black;
+   color: black;
 
 }
  
@@ -153,6 +149,7 @@ visibility: visible;}
     display: flex;
     gap: 30px;
      font-weight: bolder;
+     margin-bottom: 30px;
  
 }
 .filter{font-size: larger;}
