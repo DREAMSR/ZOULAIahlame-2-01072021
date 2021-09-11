@@ -28,7 +28,7 @@ body  {
         width: 120px;
         height: 50px;
         padding-top: 3px;
-     padding-right: 750px; 
+     padding-right: 720px; 
     }
 
 .navigation {display: flex;
@@ -325,9 +325,9 @@ border-top:none;
 border-bottom: #F2F2F2;
 font-weight: bolder;
 font-size:medium;
-font-family: 'Ralewayblack';
-padding-top: 3%;
+ padding-top: 3%;
 padding-bottom: 3%;
+padding-left: 10px;
 }
 
 /*-------------end place of card-Container-------------------*/
@@ -615,7 +615,7 @@ border-top:none;
 border-bottom:  #F2F2F2 ;
 font-weight: bolder;
 font-size: .9em;
-
+ 
 }
 /******************END OF ACTIVITIES*********/
 
