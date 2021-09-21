@@ -238,7 +238,7 @@ margin-top: 1%;}
     width: fit-content;
    }
   .img {margin: 0 auto;
-    width:100%;
+    width:fit-content;
     height: 80px;
     border-radius: 15px  15px 0 0;
     object-fit:  cover; }
@@ -303,13 +303,13 @@ color: #cac7c7;
 figure{ 
   margin-left: 1px;
   gap: 1px; }
-.figure{width: 160px;
+.figure{width: 150px;
     height: 350px;
  border-radius: 10px  10px 0 0;
  object-fit:  cover; 
   
   }
-.figure-marsaille{width: 150px;
+.figure-marsaille{width: 130px;
        height: 150px;
        border-radius: 10px 10px 0 0;
        object-fit:  cover; 
