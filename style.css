@@ -238,8 +238,8 @@ margin-top: 1%;}
     width: fit-content;
    }
   .img {margin: 0 auto;
-    width:300px;
-    height: 100px;
+    width:100%;
+    height: 80px;
     border-radius: 15px  15px 0 0;
     object-fit:  cover; }
 
@@ -274,7 +274,7 @@ height: 115px ;}
   object-fit:  cover; 
     border-radius: 20px 0 0 20px;
 width: 150px;
-height: 115px;}
+height: 125px;}
 .avistar i
 { 
   color:#0065FC ;
@@ -303,13 +303,13 @@ color: #cac7c7;
 figure{ 
   margin-left: 1px;
   gap: 1px; }
-.figure{width: 305px;
+.figure{width: 160px;
     height: 350px;
  border-radius: 10px  10px 0 0;
  object-fit:  cover; 
   
   }
-.figure-marsaille{width: 300px;
+.figure-marsaille{width: 150px;
        height: 150px;
        border-radius: 10px 10px 0 0;
        object-fit:  cover; 
